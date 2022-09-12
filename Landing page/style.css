@@ -1,0 +1,46 @@
+.wrapper{
+    width: 1280px;
+   
+margin: 0 auto;
+}
+
+    
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+header{
+    display: flex ;
+    justify-content: space-between;
+    
+}
+.logo{
+    display: flex;
+    text-decoration: none;
+}
+.mobile-nav{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+.desktop-nav{
+    display: none;
+}
+.mobile-nav{
+    display: block;
+}
+
+
+}
+a{
+    text-decoration: none;
+color:  #0B4654;
+
+    
+}
+p{
+    font-family: arial;
+    
+    font-size: 28px;
+    f
